@@ -1,0 +1,160 @@
+﻿
+Computing and Artificial Intelligence Cluster
+Project Planning &amp; Pre-Development
+Template
+
+Campus
+Baniyas- Girls
+Supervisor
+MS. Ashjan Saleh
+Capstone Project Title
+Ancient Civilization Reconstructor
+Group Student Names
+MAHRAH AHMED HASSAN SAEED ALYAMMAHI
+AFRA MOHAMMED ALAWI HADI AL HAMED
+Hajar Hashim Mohamed Sharif Alsaqqaf
+SALAMA ALI SAEED KARDOUS ALHADHRAMI
+
+Project Overview
+ Project Description:
+Ancient Civilization Reconstructor is a website where users can learn about ancient civilizations through pictures and digital reconstructions. Users can choose civilizations like Ancient Egypt, Rome, or the Maya and explore their buildings and environments.
+The website will also have a feature where scientists can take a picture of a broken ancient piece and upload it to the app. The AI will use the picture and reference pictures to estimate how the complete piece may have looked and create a new picture. Since we are students, we will use pictures from Google and other sources as references for the project, and AI will create the estimated reconstruction.
+
+Project Objectives:
+Create an interactive website about ancient civilizations.
+Allow users to select different civilizations.
+Display reconstructed historical environments.
+Provide educational information about each civilization.
+Use technology and AI to improve learning experiences.
+System Design
+System Architecture / Design:
+The user accesses the website and chooses a civilization. The system loads the related reconstruction, images, and historical information. Users can navigate through different sections to learn more about the civilization.
+Flowchart / Diagram:
+
+Hardware / Software Architecture:
+Hardware
+Laptop or PC
+Internet connection
+Software
+HTML
+CSS
+JavaScript
+Visual Studio Code
+Figma
+Blender
+Three.js
+UI/UX Design
+Interface Description:
+The website has a simple and user-friendly design. The homepage contains navigation buttons and civilization options. Users can easily move between pages, view reconstructions, and read historical information.
+Wireframes / Storyboard: [Attach Wireframes Here]
+
+4. Algorithm / AI Model Design
+Algorithm Description:
+User selects a civilization.
+The system retrieves historical information.
+AI-assisted tools help generate reconstruction layouts.
+The reconstruction is displayed.
+Historical information is shown to the user
+Data Flow Diagram:
+[Attach Diagram Here]
+
+AI Model (if applicable):
+Model Type:
+Input Data:
+Output:
+
+Model Type
+AI-assisted content generation.
+
+Input Data
+
+Historical records
+Maps
+Images
+Archaeological references
+
+Output
+
+Reconstruction layouts
+Visual scenes
+Historical information
+5. Tools, Software &amp; Resources
+Software &amp; Programming Languages:
+HTML
+CSS
+JavaScript
+Tools / Platforms:
+Visual Studio Code
+Figma
+Blender
+Three.js
+Dataset(s):
+Historical sources
+Archaeological references * Public maps and images Additional Resources:
+Educational websites
+Research articles
+History books
+6. Development Environment Setup
+Tools Installed:
+Visual Studio Code
+Web Browser
+Figma
+Blender
+Setup Steps:
+Install Visual Studio Code.
+Create project folders.
+Create HTML, CSS, and JavaScript files.
+Test the website in a browser.
+Add content and design elements.
+Initial Code / Prototype:
+A basic homepage was created with a title, navigation menu, and civilization selection section. ￼
+7. Planning &amp; Progress Documentation Key Decisions Made:
+A website platform was selected because it is easy to access. * Ancient Egypt, Rome, and the Maya were chosen as the first civilizations.
+A simple interface was selected to improve usability.
+Challenges Faced:
+Collecting accurate historical information. * Finding suitable visual references.
+Organizing large amounts of content.
+Solutions Applied:
+Using reliable educational sources.
+Dividing research into sections. * Using design tools to organize content
+Progress Summary:
+Research and planning stages have been completed. Project requirements have been identified, and website design is currently in progress.
+8. Project Timeline (Gantt Chart)
+Task
+Task
+Planning
+Design
+Development
+Testing
+Deployment
+Start Date
+Term 3 Week 8
+Term 1 Week 2
+Term 1 Week 1
+Term 1 Week 8
+Term 1 Week 8
+End Date
+Term 3 Week 8
+Term 1 Week 2
+Term 1 Week 7
+Term 1 Week 8
+Term 1 Week 9
+Status
+Completed
+Not Started
+Not Started Not Started
+Not Started
+Key Deadlines:
+Research Completion
+Design Completion
+Prototype Development
+Testing Phase
+Final Presentation
+Supervisor Check-ins:
+Weekly meetings with the supervisor to review progress
+Gantt Chart:
+[Attach Gantt Chart Here]
+
+9. Final Notes
+Additional Comments:
+This project combines history, technology, and artificial intelligence to create an engaging educational experience. It aims to help users better understand ancient civilizations through interactive visual reconstructions.

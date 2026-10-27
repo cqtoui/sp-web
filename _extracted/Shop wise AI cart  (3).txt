@@ -1,0 +1,79 @@
+
+===== PAGE 1 =====
+Computing and Artificial Intelligence Cluster
+Capstone Project Proposal
+
+
+===== PAGE 2 =====
+Campus Baniyas- Girls
+Supervisor MS. Dina Sarris
+Capstone Project Title
+                              Shope wise Ai cart
+Group Student Names
+Dana Ahmed 
+Alya Aref 
+Dan Mohammed 
+Rawda Waleed 
+1. Project Title and Description
+Project Title:
+Shop wise AI cart 
+Project Description:
+Shop wise AI cart  is an AI-powered mobile app that helps users shop in a smarter, safer, and more 
+budget-friendly way. The system uses the phone camera to scan items directly using AI image recognition. 
+It identifies products, shows details like price and ingredients, and provides real-time alerts such as 
+budget warnings, allergy notifications, and smart suggestions based on user behavior.
+2. Problem Statement
+Clearly describe the problem your project aims to solve.Explain why this problem is important.
+2.	Problem	Statement
+
+===== PAGE 3 =====
+ Many people shop without planning due to impulsive or emotional decisions, which leads to
+.overspending, buying unnecessary items, and sometimes choosing products that may cause allergies
+.This problem is important because it affects financial control, health, and daily decision-making
+
+===== PAGE 4 =====
+3. Background Research
+Summarize existing solutions or research related to your project.Explain gaps your project will address.
+Some existing solutions include image recognition apps, shopping assistants, and budget tracking tools. 
+However, these systems are separate and do not provide real-time support during shopping.
+Shop wise AI cart  solves this by combining AI image recognition, behavior analysis, and safety features in 
+one system.
+
+===== PAGE 5 =====
+4. Project Scope
+Define what your project will include and what it will NOT include.Mention limitations if any.
+Includes:
+Mobile app with camera-based item scanning
+AI image recognition
+Budget tracking and alerts
+Allergy detection
+Behavior analysis (impulsive/repeated buying)
+Real-time suggestions
+Does NOT include:
+Full supermarket database
+Advanced machine learning models
+Physical cart hardware
+Limitations:
+Depends on image recognition accuracy
+Limited dataset
+
+===== PAGE 6 =====
+5. Platforms, AI Tools, Software and Resources
+List all tools and technologies used:- Programming languages- AI tools/libraries- Software- Hardware (if any)- 
+Datasets
+Programming languages: Dart / JavaScript
+Framework: Flutter or React Native
+AI tools: Image recognition APIs
+Software: Visual Studio Code
+Database: Firebase
+Hardware: Mobile phone camera
+Dataset: Manually created product data
+
+===== PAGE 7 =====
+6. Expected Outcomes
+Explain what results your project will achieve. Mention deliverables such as system, prototype, or report.
+A working mobile app prototype Shop wise AI cart 
+Item recognition using camera
+Real-time alerts (budget, allergy, suggestions)
+AI-based behavior analysis
+Final report and presentation

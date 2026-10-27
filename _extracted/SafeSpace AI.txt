@@ -1,0 +1,23 @@
+Project Title
+
+SafeSpace AI: An Intelligent Emotional Wellness Support Web Platform for Teenagers
+
+Project Description
+
+SafeSpace AI is a web-based platform designed to provide teenagers with a safe, private, and accessible space to express their emotions and develop healthier emotional habits. The platform uses Artificial Intelligence (AI), Natural Language Processing (NLP), and sentiment analysis to understand users’ emotional patterns and provide appropriate, personalized support.
+
+Objectives
+
+Provide teenagers with an accessible and supportive space to express their feelings.
+Encourage regular emotional check-ins and self-reflection.
+Suggest healthy coping strategies and positive activities.
+Protect users’ privacy while providing optional support for guardians.
+
+Key Features
+
+AI Supportive Chatbot – Provides empathetic, age-appropriate conversations and guidance.
+Daily Check-ins – Allows users to record their mood and feelings.
+Mood Insights – Displays emotional trends and patterns over time.
+Personalized Growth Activities – Suggests hobbies, exercise, creative activities, and other positive goals.
+Guardian Dashboard – Provides high-level progress summaries without revealing private conversations.
+Safety Support – Identifies potential signs of serious distress and encourages users to seek help from trusted adults or appropriate support services.

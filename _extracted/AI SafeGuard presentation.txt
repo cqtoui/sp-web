@@ -1,0 +1,405 @@
+
+===== PAGE 1 =====
+AI
+SafeGuard
+SMART SAFETY,
+ REAL PROTECTION.
+
+===== PAGE 2 =====
+Team Members 
+Aisha Abdulla Alshehyari
+572356
+Developed the system, integrated
+AI, and managed research, data
+collection, and analysis.
+ Sara Saoud Aljenibi
+Design and UI Developer
+ System Development and
+Research
+20230016864
+Designs the user interface and
+creates a clear, accessible
+dashboard experience.
+Salamah Ahmed Alyammahi
+Quality Testing and Support
+814091
+Tests the system, documents
+problems and helps evaluate its
+accuracy and performance.
+& Roles
+
+===== PAGE 3 =====
+Idea Generation
+AI SafeGuard
+Camel Watch AI
+An AI-based workplace safety
+system that uses computer
+vision and facial recognition
+to identify workers and check
+whether they are wearing the
+required personal protective
+equipment (PPE).
+An AI-based road-safety
+system that detects
+camels and wildlife near
+desert highways and sends
+early warnings to drivers to
+help prevent accidents.
+
+===== PAGE 4 =====
+Chosen Idea :
+01
+ the system improves safety by checking
+whether workers are wearing the required
+protective equipment before entering
+workshops, laboratories, or industrial
+areas.
+02
+AI SafeGuard provides real-time
+monitoring and immediate alerts. This
+allows supervisors to respond quickly to
+safety violations and prevent possible
+accidents.
+03
+the project combines object detection,
+facial recognition, backend
+development, and dashboard design,
+allowing us to apply different computing
+skills in one practical system.
+AI SafeGuard
+We chose AI SafeGuard, an AI-powered workplace safety monitoring system, for the following reasons: 
+
+===== PAGE 5 =====
+Problem Statement
+Workers in workshops, laboratories and industrial
+environments must wear personal protective equipment
+to reduce the risk of injury. However, some workers may
+forget or ignore these requirements.
+Traditional monitoring depends heavily on supervisors,
+who may miss violations because of distractions, large
+work areas or demanding workloads. Manual incident
+recording can also be slow and inconsistent.
+Supervisors therefore need a reliable system that can
+check safety compliance in real time, identify workers and
+maintain accurate incident records. AI SafeGuard
+addresses this need through automated PPE detection,
+facial recognition, immediate alerts and incident logging.
+
+===== PAGE 6 =====
+AI SafeGuard is an AI-powered monitoring system designed for
+workshops, laboratories and industrial workplaces.
+A webcam captures an image of a worker at an entry point. The system
+uses a custom YOLO11s model to detect visible safety equipment and
+DeepFace facial recognition to identify the worker. It then compares the
+detected equipment with the requirements configured for that entry
+point.
+If the worker meets all requirements, the system displays a compliant
+result. If equipment is missing, it produces an audible alert and records
+the worker’s identity, entry point, missing equipment and scan image.
+Supervisors can use the dashboard to review incidents, manage workers
+and entry points, and monitor compliance information.
+Project Overview
+
+===== PAGE 7 =====
+User Research :
+Our survey was shared with
+students and received 109
+responses:
+77% had seen someone
+enter without required
+safety gear often or
+sometimes.
+78% considered missing
+safety gear a serious
+problem.
+95% thought automatic
+safety-gear checks would
+be useful.
+79% supported a supervised
+school trial.
+Background Research :
+Research has explored
+using cameras and AI to
+detect missing safety gear
+and unsafe actions
+(Adhikesaven, 2022).
+Existing Solution : 
+Intenseye uses cameras to
+monitor safety gear, send
+alerts, and track safety
+compliance. AI SafeGuard
+focuses on a webcam-
+based system for laboratory
+and workshop entrances.
+Conducted Research
+
+===== PAGE 8 =====
+Data Analysis
+What the Results Mean
+for AI SafeGuard :
+Among 109 respondents,
+95% considered
+automatic checks useful.
+Detecting missing gear
+(47%) and immediate
+alerts (34%) were the
+most preferred features,
+supporting our focus on
+these functions.
+ Incorrect results (55%)
+and facial-image privacy
+(33%) were the main
+concerns, highlighting
+accuracy testing and
+protection of facial data
+as development
+priorities.
+
+===== PAGE 9 =====
+Resources and Materials Used
+01
+The active PPE model uses Ultralytics YOLO11s
+with PyTorch. OpenCV processes camera
+images, while YuNet detects faces and
+Facenet512 generates facial embeddings for
+worker identification. DeepFace supports the
+facial-recognition workflow.
+02
+The frontend uses React, Vite, HTML,
+CSS and JavaScript. The FastAPI
+backend manages image uploads, AI
+processing, worker records and
+incident data, while Uvicorn runs the
+application locally.
+03
+Version 1 used approximately 68
+curated Roboflow datasets and was
+trained in Kaggle with an NVIDIA Tesla
+T4 GPU. Version 2 used locally recorded
+camera videos with manually reviewed
+annotations.
+04
+The required hardware consists
+of a development laptop and an
+external USB webcam.
+Data and Training Hardware
+AI and Image Processing Frontend and Backend Development
+
+===== PAGE 10 =====
+Challenges and Solutions
+RetinaFace took 9–
+16 seconds to
+detect a face, so
+we replaced it with
+YuNet. This
+reduced face-
+detection time to
+approximately
+0.05–0.10 seconds
+while keeping
+Facenet512 for
+identity matching.
+The public datasets
+used different class
+names and
+annotation formats.
+We cleaned and
+combined
+approximately 68
+datasets, corrected
+annotation
+problems, and
+standardized them
+into six PPE classes.
+Training the YOLO
+model locally was
+very slow and
+caused the laptop
+to overheat. We
+moved the training
+process to Kaggle
+and used an
+NVIDIA Tesla T4
+GPU to complete it
+reliably.
+Version 2 missed
+some equipment
+under our webcam
+conditions. We
+recorded local videos,
+manually corrected
+the annotations, and
+fine-tuned the model,
+increasing frame-
+level recall from 45%
+to 100% on our
+separate test video.
+
+===== PAGE 11 =====
+Risk Assessment
+AI can produce
+incorrect results, so
+AI SafeGuard should
+support safety
+supervision rather
+than replace it. A
+supervisor should
+review incidents and
+make final
+decisions.
+Worker photographs
+and incident records
+contain sensitive
+information, so
+access should be
+restricted and all
+data should be
+stored through
+protected backend
+routes.
+Facial recognition
+may fail when a
+face is covered or
+unclear, so the
+system uses a
+strict matching
+threshold and
+allows supervisors
+to verify uncertain
+results.
+Poor lighting, hidden
+equipment, or
+unusual camera
+angles may affect
+detection accuracy,
+so the camera should
+provide a clear view
+and the system
+should be tested
+under different
+conditions.
+Incorrect PPE
+Detection
+Incorrect Worker
+Identification
+Privacy and Data
+Security
+Overreliance on AI
+
+===== PAGE 12 =====
+Development Phases
+1
+2
+3
+4
+5
+6
+Research and Planning- We identified the
+limitations of manual PPE monitoring and
+defined the project requirements.
+ Interface Design- We designed and
+developed the interface in Visual Studio Code
+using React and Vite.
+Backend Development- We built a FastAPI
+backend for image uploads, worker
+registration, scan processing, and incident
+storage.
+PPE Model Development- We created
+several YOLO model versions and improved
+the dataset, class structure, and
+annotations after each test.
+Facial-Recognition Integration- We
+connected DeepFace and Facenet512, then
+replaced RetinaFace with YuNet to improve
+speed.
+Testing and Improvement- We tested
+complete scans, corrected application errors,
+fine-tuned Version 2, and compared it with
+Version 1.
+
+===== PAGE 13 =====
+Gantt Chart
+week
+
+===== PAGE 14 =====
+AI Implementation
+PPE Detection
+The system captures an
+image using the webcam
+and sends it to the YOLO11s
+model. The model analyzes
+the image and detects six
+types of PPE: helmets,
+goggles, gloves, safety vests,
+ear protection, and lab
+coats.
+Facial Recognition
+YuNet locates the worker’s
+face in the captured image.
+Facenet512 then creates a
+facial embedding and
+compares it with the saved
+embeddings of registered
+workers to determine the
+worker’s identity.
+Compliance Decision
+The system compares the
+detected PPE with the safety
+equipment required at the
+selected entry point. It then
+displays a compliant or violation
+result, identifies any missing
+equipment, and records the
+incident when necessary.
+The AI SafeGuard project integrates artificial
+intelligence to improve workplace safety
+through automatic PPE detection and worker
+identification.
+
+===== PAGE 15 =====
+Initial Prototype
+
+===== PAGE 16 =====
+Final Prototype
+
+===== PAGE 17 =====
+Future Plan
+Deploy AI SafeGuard online so supervisors
+can access the system from different
+devices and locations.
+Connect a secure cloud database to store
+worker information, incident records, and
+captured images safely.
+Test the system in real workplaces using
+different people, lighting conditions,
+camera angles, and PPE designs.
+Expand the training dataset to improve
+PPE detection accuracy in unfamiliar
+environments and difficult conditions.
+Improve the system so it can detect and
+identify multiple workers within the same
+camera frame.
+Add automatic email or mobile alerts to
+notify supervisors immediately when a
+safety violation occurs.
+
+===== PAGE 18 =====
+Conclusion
+AI SafeGuard addresses the problem of missed PPE
+violations by automatically detecting safety
+equipment, identifying registered workers, and
+recording incidents in real time. Our final model
+achieved 95.9% recall and detected all six PPE classes
+in our separate test video.
+Throughout this project, we learned how to prepare
+datasets, train AI models, develop a complete
+application, and improve it through testing. 
+The project shows how artificial intelligence can
+support supervisors, improve safety compliance, and
+help create safer workplaces.
+
+===== PAGE 19 =====
+Thank you
+very much for
+your
+attention!

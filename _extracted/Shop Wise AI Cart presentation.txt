@@ -1,0 +1,208 @@
+
+===== PAGE 1 =====
+An AI-Powered Smart Grocery Shopping Assistant
+for Easier, Safer, and Smarter Supermarket Trips
+Shop Wise AI
+Cart
+Presented By:
+Alya
+Dan
+Dana
+Rawda
+
+===== PAGE 2 =====
+Team Members
+& Contributions
+Project Lead & AI Engineer
+Overseeing overall architecture, camera
+scanning integration, and model training
+pipelines for product identification.
+Full-Stack Developer
+Building user profile management, smart
+budget calculation engines, and interactive
+supermarket store navigation features.
+UX & Safety Specialist
+Designing allergy protection systems,
+dietary preference filter logic, and expiry
+tracking reminder notifications.
+
+
+===== PAGE 3 =====
+Idea Generation &
+Evaluation
+Initial Brainstorming Alternatives
+We evaluated several standalone concepts during early
+ideation: 1) A barcode-only scanner app, 2) A static
+household budget tracker, and 3) A simple recipe
+recommendation tool based on fridge contents.
+Why We Chose Shop Wise AI Cart
+Users face fragmented experiences using multiple apps
+for budgets, diets, and allergies. Our evaluation proved
+that uniting all these capabilities into an AI-powered
+camera assistant offers unmatched convenience and
+market value.
+
+===== PAGE 4 =====
+Shoppers frequently overspend their budgets, struggle
+to decipher complex ingredient lists with food allergies,
+waste hours navigating large hypermarkets like
+Carrefour or Lulu, and let purchased food expire
+unnoticed.
+Targeted at busy families, budget-conscious
+individuals, and health-conscious shoppers with
+specific dietary restrictions (Halal, Keto, Vegan) or
+severe food allergies (peanuts, dairy).
+Everyday Supermarket Pain Points Target Audience & Impact
+Problem Statement
+& Target Users
+
+===== PAGE 5 =====
+Project
+Overview
+All-in-One Solution: Combines camera recognition, budget control, allergy
+alerts, store navigation, and expiry reminders into a single unified app.
+Supermarket Integration: Select specific stores like Lulu Hypermarket or
+Carrefour to match local inventory, aisle layouts, and pricing.
+Personalized AI Guidance: Adapts to user profiles over time, learning shopping
+habits and making tailored product suggestions.
+
+===== PAGE 6 =====
+Conducted Research &
+Competitor Review
+Market & Competitor Analysis
+Existing supermarket apps offer basic online
+ordering or simple loyalty points, but lack real-
+time camera-based nutritional scanning, instant
+budget threshold warnings, and integrated
+allergy safety checks.
+Key User Research Findings
+Over 80% of surveyed shoppers reported
+accidentally exceeding their planned grocery
+budget and expressed anxiety over hidden
+allergens in packaged goods. This validated our
+core AI camera and smart budget features.
+
+===== PAGE 7 =====
+Part 2:Planning& Architecture
+Data workflow, technical resource planning, risk assessment, and
+project scheduling.
+
+===== PAGE 8 =====
+Data Analysis & User Journey
+Profile Setup: Users input budget limits, dietary preferences (Halal, Vegan, Keto), and
+allergy profiles.
+Scan & Verify: Camera AI matches visual input against product databases to evaluate
+prices, ingredients, and suitability.
+Cart Optimization: Real-time calculation monitors spending and suggests cheaper
+alternatives to keep within target budgets.
+
+===== PAGE 9 =====
+Resources & Technology
+Stack
+AI & Vision Models
+Computer vision libraries and image
+recognition models for real-time
+grocery product identification.
+Database & APIs
+Supermarket product inventory APIs
+(Lulu, Carrefour datasets), secure
+user profile storage, and recipe
+databases.
+Development Tools
+Mobile application frameworks, UI/UX
+design tools, and version control
+systems for seamless deployment.
+
+===== PAGE 10 =====
+Challenges &
+Solutions
+Northline Group
+Accurately recognizing packaged grocery items under
+varying supermarket lighting conditions and blurry camera
+angles caused initial identification errors.
+Technical Challenge
+Implemented Solution
+Accurately recognizing packaged grocery items under
+varying supermarket lighting conditions and blurry camera
+angles caused initial identification errors.
+
+===== PAGE 11 =====
+Identified Risk Impact Mitigation Strategy
+Allergy Alert False
+Negatives
+High (Safety) Add mandatory disclaimer reminding users to
+verify actual product packaging.
+Supermarket
+Price Changes
+Medium Implement periodic background API
+synchronization with store catalogs.
+Usability &
+Complex UI
+Medium Keep camera scanning as the primary 1-tap
+interaction point.
+Risk
+Assessment &
+Mitigation
+
+===== PAGE 12 =====
+Development Lifecycle &
+Timeline
+Phase 1: Research
+Requirements gathering, user
+surveys, and supermarket inventory
+mapping.
+Phase 2: Design
+UI wireframing, database schema
+creation, and AI model pipeline setup.
+Phase 3: Launch
+Core feature integration, prototype
+testing, bug fixing, and final
+deployment.
+
+===== PAGE 13 =====
+Part 3: Implementation &
+Future
+Demonstrating AI execution, prototype results, future scaling plans, and
+conclusion.
+
+===== PAGE 14 =====
+Vision Workflow: Point phone camera at any item for instant
+image recognition and metadata retrieval.
+Safety Cross-Check: Automatically compares ingredients with
+user allergy profile to trigger instant warnings.
+Smart Recommendations: Suggests cheaper alternative
+products in real-time to save money.
+AI Implementation &
+Camera Scanner
+
+===== PAGE 15 =====
+Initial Prototype
+Focused purely on manual product search and basic
+budget summation, lacking automated image recognition,
+allergy warnings, and in-store aisle mapping.
+Initial Prototype vs.
+Final System
+Final Prototype
+Delivers a complete, seamless assistant featuring camera
+AI scanning, live supermarket aisle navigation, expiry date
+tracking, and personalized recommendations.
+
+===== PAGE 16 =====
+Future Scaling &
+Enhancements
+Optimized Routing
+Generate efficient in-store walking
+paths based on full cart contents to
+eliminate backtracking.
+Recipe Integration
+Suggest recipes directly utilizing items
+nearing their expiry dates to minimize
+food waste.
+Expanded Retailers
+Integrate more supermarket chains and
+enable direct online checkout
+integration.
+
+===== PAGE 17 =====
+Thank You!
+Shop Wise AI Cart — Making Grocery Shopping Smarter, Safer, and Easier.

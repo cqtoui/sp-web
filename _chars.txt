@@ -1,0 +1,25 @@
+FILE Footer.jsx count 1
+   <p className="footer-copy">© {site.year} Computer Artifici
+FILE ProjectCard.jsx count 1
+t.fullName ? `${project.name} — ${project.fullName}` : projec
+FILE projects.js count 14
+ifficulty change from the user’s choices in the moment.",    
+f an action, such as a patient’s condition worsening after in
+ifficulty change from the user’s real-time choices, from avia
+pace home screen showing today’s mood, a check-in streak, sho
+nformation systems, and a user’s health profile to point out 
+ it expires.",       "The team’s research notes say more than
+e app can work with that store’s inventory, aisles, and price
+disclaimer:       "The project’s risk notes say an allergy al
+ew later.",       "In the team’s survey of 109 students, 77% 
+sis for discipline. The survey’s main concerns were incorrect
+title: "Reported from the team’s tests",         items: [    
+odel.",           "On the team’s separate test video, that mo
+ce-detection time from about 9–16 seconds to about 0.05–0.10 
+out 9–16 seconds to about 0.05–0.10 seconds.",         ],    
+FILE Home.jsx count 1
+om the                   teams’ own materials. The last, CAI 
+FILE ProjectPage.jsx count 3
+ument.title = "Page not found · Computer Artificial Intellige
+ment.title = `${project.name} · Computer Artificial Intellige
+ironmental data and the person’s health profile.             

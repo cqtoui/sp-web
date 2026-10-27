@@ -1,0 +1,105 @@
+SANAD AI Crisis & Safety Assistant
+SANAD AI Crisis & Safety Assistant is an AI-powered safety and crisis-awareness mobile application designed to help users understand potentially dangerous information and respond more safely during emergencies.
+The application addresses a common problem during crises: the rapid spread of confusing, misleading, or false information. SANAD allows users to submit a news message, social media post, or alert and receive an AI-supported analysis of its potential safety level and credibility.
+The application provides users with a simple and understandable result, including a safety level, possible threat type, affected area, and recommended actions. It also provides educational safety information and an Emergency Mode to help users quickly access important guidance during critical situations.
+SANAD focuses on three main crisis categories: Conflict & War, Natural Disasters, and Health Crises, while also providing a General Mode for information that does not fit into a specific category.
+The goal of SANAD is not to replace official emergency services or trusted authorities, but to help users become more aware, informed, and prepared when encountering potentially dangerous information.
+
+Project Objectives
+The main objectives of SANAD are to:
+Improve crisis awareness by helping users understand information related to emergencies and potential threats.
+Identify potentially misleading information by analyzing user-submitted news, messages, and alerts.
+Provide clear safety guidance that users can easily understand and follow.
+Reduce confusion during emergencies by organizing information according to different crisis categories.
+Promote responsible information sharing by encouraging users to verify information before trusting or spreading it.
+Support emergency preparedness through educational safety tips and an accessible Emergency Mode.
+Use artificial intelligence for practical safety applications in a simple and user-friendly mobile application.
+
+Key Features
+AI-Powered Information Analysis
+Users can paste a news message, social media post, or emergency-related information into SANAD. The system analyzes the content and provides an understandable assessment.
+Safety Level
+The application presents a simple safety classification:
+Low — limited or low-risk information.
+Medium — information that may require attention or verification.
+High — information that may indicate a serious safety concern.
+Information Credibility
+SANAD categorizes submitted information as Real, Suspicious, or Fake based on its analysis, while encouraging users to verify important information through trusted official sources.
+Crisis Categories
+Users can select the type of situation they are dealing with:
+Conflict & War — such as air raids, missiles, and armed threats.
+Natural Disasters — such as floods, storms, and sandstorms.
+Health Crisis — such as disease outbreaks, pandemics, and lockdowns.
+General Mode — for other safety-related situations.
+Threat and Area Identification
+The application can identify the possible type of threat and relevant affected area from the submitted information when sufficient information is available.
+Personalized Safety Recommendations
+SANAD provides practical safety guidance based on the detected situation and selected crisis category.
+Emergency Mode
+Emergency Mode provides quick access to important safety guidance and emergency-related information when users need it most.
+Trusted Sources
+The application encourages users to verify critical information through reliable and official sources rather than relying only on social media or unverified messages.
+User-Friendly Interface
+SANAD is designed with a simple interface so that users can quickly understand the results without needing technical knowledge.
+
+
+# How SANAD Works
+
+SANAD follows a simple process designed to make crisis-related information easier to understand.
+**Step 1 — Select a Crisis Category**
+The user selects the relevant category, such as Conflict & War, Natural Disasters, Health Crisis, or General Mode.
+**Step 2 — Submit Information**
+The user pastes a news article, message, social media post, or other crisis-related information into the application.
+**Step 3 — AI Analysis**
+SANAD analyzes the submitted content and identifies relevant safety information, such as the possible threat type, credibility indicators, and potential level of concern.
+**Step 4 — Receive Results**
+The application displays a clear result using a Low, Medium, or High safety level and provides an understandable credibility assessment.
+**Step 5 — Follow Safety Guidance**
+SANAD provides recommendations and safety information relevant to the situation.
+**Step 6 — Verify Important Information**
+For serious situations, users are encouraged to confirm information through official emergency services and trusted authorities.
+
+
+Target Users
+SANAD is designed for a wide range of users who may encounter crisis-related information in their daily lives.
+The application can be useful for:
+Students who encounter emergency information through social media or messaging platforms.
+Families and citizens who want to better understand potentially dangerous information.
+Individuals who need quick access to basic safety guidance.
+Communities that want to improve awareness and preparedness during emergencies.
+SANAD is designed to be simple enough for users without technical or AI knowledge.
+
+
+
+What Makes SANAD Different?
+SANAD combines AI-based information analysis, crisis awareness, and safety education into one user-friendly application.
+Instead of simply displaying emergency information, SANAD is designed to help users understand what the information may mean and what they should consider doing next.
+The application brings together several functions in one platform:
+Crisis-specific AI analysis
+Safety-level classification
+Information credibility assessment
+Threat identification
+Personalized safety recommendations
+Emergency Mode
+Safety education
+Trusted-source verification
+This combination aims to make complex crisis information easier for everyday users to understand.
+
+Safety Disclaimer
+SANAD is an educational and awareness project designed to demonstrate how artificial intelligence can support crisis awareness and information analysis.
+SANAD does not replace emergency services, government authorities, medical professionals, law enforcement, or official emergency alerts.
+AI-generated results may not always be accurate and should not be treated as confirmed facts. During a real emergency, users should always follow instructions from official authorities and trusted emergency services.
+The application is intended to encourage awareness, preparedness, and responsible information verification.
+
+
+Project Team
+
+Project: SANAD AI Crisis & Safety Assistant
+Team Members:
+Dhabya Mohsin — Team Leader
+Alreem Tareq — Team Member
+Mahra Asaad — Team Member
+Sara Nasser— Team Member
+Project Supervisor:
+Ms. Dina Sarris
+

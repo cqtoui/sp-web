@@ -1,0 +1,114 @@
+
+Computing and Artificial Intelligence Cluster
+Capstone Project Proposal
+
+
+
+
+Project Title and Description
+Project Title:
+CAI (Cognitive Astronaut Interface)
+Project Description:
+CAI (Cognitive Astronaut Interface) is an AI-powered system designed to assist astronauts in space by enabling them to control robotic systems using brain signals.
+The system uses an EEG headset to capture brain activity such as blinking and focus. These signals are processed using Python and converted into commands that control a robotic assistant prototype. This robotic system represents a space assistant that can perform tasks in dangerous or hard-to-reach environments.
+What makes CAI unique is its AI-powered emergency response feature. If the astronaut is unable to respond or if abnormal signals are detected, the system automatically activates safety actions such as alerts or autonomous movement.
+
+CAI is a smart space assistant that can be controlled by the mind and can act on its own in emergencies.
+2. Problem Statement
+Problem:
+Astronauts operate in extreme environments where movement is limited due to microgravity, confined spaces, or injury. In emergency situations, they may not be able to manually control equipment or respond quickly.
+Additionally, some areas in space missions are dangerous or inaccessible for humans, requiring robotic assistance.
+Why this problem is important:
+ Space missions require fast and accurate decision-making 
+ Delays in response can risk human lives and mission success 
+ Human physical ability is limited in extreme conditions 
+ There is a need for smarter robotic assistance systems 
+ Current systems rely heavily on manual control and lack intelligent emergency response.
+3. Background Research
+Existing research shows that Brain-Computer Interface (BCI) technology enables direct communication between the human brain and external devices using electrical brain signals. These signals are typically captured using EEG (electroencephalography), a non-invasive method that detects brain activity from the scalp.
+BCI systems measure different types of brainwaves, such as alpha, beta, and theta waves, which are associated with mental states like focus, relaxation, and attention. Devices like the NeuroSky MindWave Mobile can detect simple signals such as blink strength and attention levels, which can then be translated into commands.
+Artificial Intelligence plays a key role in BCI systems by processing and interpreting brain signals. Since EEG signals are weak and noisy, AI techniques such as signal filtering, pattern recognition, and classification are used to improve accuracy and extract meaningful information. Even simple algorithms can convert these signals into control actions, while more advanced systems use machine learning to improve performance over time.
+Robotics is already widely used in space missions for exploration, maintenance, and hazardous operations. For example, robotic systems are used to perform tasks that are too dangerous or physically difficult for astronauts. However, these systems are usually controlled manually or through pre-programmed instructions.
+Organizations such as NASA are actively researching human-machine interaction technologies, including brain-controlled systems, to improve astronaut safety and efficiency. These systems aim to reduce reliance on physical controls and allow faster responses in critical situations.
+In addition, assistive technologies on Earth have shown that BCI systems can help individuals with disabilities control devices such as wheelchairs, computers, and prosthetics using only brain signals. This demonstrates the real-world potential of brain-controlled systems.
+Limitations of Existing Systems:
+Brain signals are extremely weak and easily affected by noise or interference 
+Accuracy and reliability are still limited, especially in real-time applications 
+Most systems allow only basic control with a small number of commands 
+Existing solutions do not effectively handle emergency situations 
+Integration between AI, BCI, and robotics is still developing 
+Gap this project addresses:
+CAI aims to improve current systems by combining Brain-Computer Interface technology, Artificial Intelligence, and robotics into one integrated solution.
+Unlike existing systems, CAI is designed not only for control but also for intelligent response. It introduces an emergency detection feature that allows the system to recognize when the user is unable to respond and automatically activate safety actions.
+This creates a more reliable, responsive, and practical system for extreme environments such as space, where fast decision-making and hands-free control are critical.
+4. Project Scope
+
+What the project WILL include:
+Brain signal input using EEG headset (or simulated input if needed) 
+Signal processing using Python 
+Control of a robotic prototype representing a space assistant 
+Basic AI logic for interpreting signals 
+Emergency detection system (no signal or abnormal signal) 
+Automatic response actions (alert or system activation) 
+Real-time demonstration of the system 
+What the project will NOT include:
+Advanced medical-grade brain signal analysis 
+Full space environment simulation 
+Complex deep learning models 
+Industrial-level robotic systems 
+Limitations:
+EEG signals may be inconsistent or noisy 
+Limited number of control commands 
+Response time may include slight delays 
+Prototype is a simplified model of a real system 
+ The robot used is a prototype to represent a space robotic assistant, not the final real-world system.
+
+
+5. Platforms, AI Tools, Software and Resources
+List all tools and technologies used:
+- Programming languages
+- AI tools/libraries
+- Software
+- Hardware (if any)
+- Datasets
+Programming Languages:
+Python 
+Arduino (C/C++) 
+AI Tools / Methods:
+Signal processing using Python 
+Pattern detection and threshold-based logic 
+Software:
+Arduino IDE 
+Python IDE (VS Code / Thonny / PyCharm) 
+EEG headset SDK/software 
+Hardware:
+EEG Headset (NeuroSky MindWave Mobile 2 or OpenBCI Galea) 
+Arduino Uno or Raspberry Pi 4 
+Robotic prototype (motors, wheels, or actuator system) 
+L298N Motor Driver 
+Bluetooth module (HC-05) or Wi-Fi 
+Rechargeable battery pack 
+Optional:
+Ultrasonic sensor (obstacle detection) 
+Camera module (visual feedback) 
+Datasets:
+Real-time EEG data collected from the user
+(No external dataset required)
+
+6. Expected Outcomes
+The project is expected to achieve:
+A working prototype that demonstrates brain-controlled robotic assistance 
+Real-time conversion of brain signals into system actions 
+A functional emergency detection and automatic response system 
+Improved understanding of brain-computer interaction 
+Final Deliverables:
+ Working prototype (robotic assistant system) 
+Source code (Python + Arduino) 
+ Project report 
+ Presentation and live demonstration
+
+--- TABLE ---
+Campus | Baniyas- Girls
+Supervisor | MS. Ashjan Saleh
+Capstone Project Title | CAI (Cognitive Astronaut Interface)
+Group Student Names |   Mariam Saad, Salama Jamal, Meera Abdulhakeem, shikha Ali   

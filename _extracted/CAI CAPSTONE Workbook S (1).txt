@@ -1,0 +1,595 @@
+
+===== PAGE 1 =====
+CAI Capstone Project 
+ 
+ 
+Computing and Artificial Intelligence Cluster 
+Capstone Project Workbook 
+ 
+ 
+ 
+Campus Baniyas- Girls 
+Supervisor MS. Dina Sarris 
+Capstone Project Title Shopwise AI Cart 
+Group Student Names                                                        Alya Aref 
+Dana Ahmed 
+Dan Mohammed 
+Rawda Waleed  
+ 
+ 
+ 
+ 
+ 
+
+
+===== PAGE 2 =====
+CAI Capstone Project 
+ 
+ 
+Table of Contents 
+SECTION1- GRADE 11 ................................................................................................................................................. 3 
+G11 TERM 3 – PROJECT OVERVIEW ....................................................................................................................................... 4 
+G11 TERM 3- PROJECT PLANNING AND PROPOSAL PHASE .......................................................................................................... 4 
+G11 LEARNER EVIDENCE .................................................................................................................................................... 7 
+SECTION2- GRADE 12 ................................................................................................................................................. 9 
+G12 TERM 1 OVERVIEW ..................................................................................................................................................... 10 
+G12 TERM 1- PROJECT IMPLEMENTATION PHASE ..................................................................................................................... 10 
+G12 LEARNER EVIDENCE ................................................................................................................................................... 12 
+APPENDIX ................................................................................................................................................................ 13 
+APPENDIX A- RECOMMENDED TECHNOLOGY RESOURCES .......................................................................................................... 13 
+APPENDIX B- SUGGESTED HARDWARE COMPONENT ................................................................................................................. 15 
+APPENDIX C- SUGGESTED AI TOOLS & TECHNOLOGY STACK ....................................................................................................... 16 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE 3 =====
+CAI Capstone Project 
+ 
+ 
+ 
+ 
+ 
+Section1- Grade 11 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+===== PAGE 4 =====
+CAI Capstone Project 
+G11 Term 3 – Project Overview 
+ 
+The CAI Capstone Project gives you the opportunity to apply the skills and knowledge you have learned at ATS 
+to solve a real-world problem using AI technologies. You will design, develop, test, and improve a digital or AI-
+based solution while demonstrating creativity, problem-solving, and technical skills. 
+Throughout the project, you will plan your work, document your progress, and collaborate with your team, similar 
+to how professionals work in technology fields. The project encourages innovation and the use of modern AI 
+tools and technologies to create a high-quality final product. 
+Outstanding projects may be showcased at the school’s TVET event. This capstone project is your chance to 
+demonstrate your readiness for future studies and careers in computing and AI while creating a project you can 
+participate in multiple showcase competitions and innovation awards. 
+ 
+G11 Term 3- Project Planning and Proposal Phase 
+Term 3 Weekly Plan: Project Planning and Proposal 
+ This term, you will start planning your Capstone Project, which you will fully implement and complete in 
+Grade 12, Term 1. 
+You will explore project ideas, investigate different technical approaches, and develop a clear concept that 
+is both practical and innovative. You will work like a professional AI /Software engineer, considering the 
+end-user and market need in your plan wh ile exploring the recent AI tools and technologies for optimal 
+utilization in your project. This ensures your ideas are realistic, well -organized, and ready to be brought to 
+life. 
+By the end of week two, you will create a complete project proposal. This proposal will explain what you 
+plan to build, why it is important, and how you will carry it out. It will be submitted to the ATS Directorate 
+CDU Specialist for review and approval. Once approved, your proposal will guide all your planning and 
+practical work in Grade 12, Term 1, helping you stay focused and on track to produce a high-quality project. 
+ 
+ 
+
+===== PAGE 5 =====
+CAI Capstone Project 
+Week 1–2: Explore and Select Project Concept 
+Form a project group of no more than four students, ensuring members demonstrate strong communication 
+skills, teamwork, responsibility, time management, problem-solving ability, and commitment, as these soft 
+skills are essential for successful project completion. 
+• Brainstorm multiple project ideas with guidance from your supervisor teacher. 
+• Conduct preliminary research to understand real-world applications and existing solutions. 
+• Discuss ideas with peers and your supervisor to get feedback and advice. 
+• Select one project idea to develop further. 
+• Define the project’s goal, purpose, expected outcomes, and the problem it aims to solve, with 
+supervisor input. 
+Week 3–5: Prepare and Submit Project Proposal 
+• Conduct research on software, tools, technologies, GenAI & Agentic AI principles relevant to your 
+project. 
+• Develop a detailed project proposal under the guidance of your supervisor, including: 
+o Project title and description 
+o Problem statement 
+o Background research 
+o Project scope 
+o Platforms, AI tools, software and any resources required 
+o Expected outcomes 
+• Submit the completed proposal to the Computing CDU Specialist by the end of Week 4–5. 
+• Ensure your supervisor reviews your proposal before submission for accuracy and completeness. 
+ 
+ 
+ 
+ 
+Computing and AI Capstone Project Proposal – Fill out form 
+
+
+===== PAGE 6 =====
+CAI Capstone Project 
+ 
+Project proposal submissions guidelines 
+• All team members must actively participate in planning and development tasks under the guidance 
+of the supervisor. 
+• The supervisor must review and approve the project work before any official submission or 
+progression. 
+Only one project submission is required per group, representing the collective work of the team. 
+ 
+ 
+  
+Week 6–7: Feedback and Revision 
+• Receive feedback and suggestions from the CDU Specialist. 
+• Discuss the feedback with your supervisor to understand required changes. 
+• Revise your project plan, work flow chart, or timeline accordingly. 
+• Finalize the approved proposal under supervisor guidance to ensure it is realistic and well-
+structured for pre-production work. 
+Week 8–End of Term: Project Planning and Pre-Development 
+Begin detailed pre-development planning with supervisor support: 
+• Develop system designs, wireframes, flowcharts, or hardware architecture diagrams. 
+• Create UI/UX stryboard or interface designs where applicable. 
+• Design algorithms, data flow diagrams, or AI model structures. 
+• Identify required software, datasets, tools, platforms, and resources. 
+•  Set up development environments and start preliminary coding or prototyping under supervisor 
+guidance. 
+• Document all planning, designs, decisions, and progress clearly. 
+
+===== PAGE 7 =====
+CAI Capstone Project 
+• Develop a Gantt chart to visualize the full project timeline, including: 
+• Planning, development, testing, and deployment milestones 
+• Key deadlines and supervisor check-ins to monitor progress 
+• All work in Term 3 focuses on planning and preparation. Full development, testing, documentation, 
+and final presentation will continue in Grade 12, Term 1. 
+ 
+ 
+ 
+ 
+G11 Learner Evidence 
+Learner 
+evidence 
+Week 1-2 
+ 
+• Our team members are Dana Alawbthani, Dan Mohammed, Alya Aref, and Rawda Waleed. 
+• Dana researched AI technologies and smart shopping applications to support the project idea. 
+• Dan researched image recognition and how AI can identify products using a smartphone 
+camera. 
+• Alya explored budgeting features, allergy detection systems, and user requirements. 
+• Rawda researched store navigation, personalization features, and different diet modes such as 
+halal, vegan, and keto. 
+• Together, we brainstormed project ideas and selected Shop Wise AI Cart as our final project. 
+
+
+===== PAGE 8 =====
+CAI Capstone Project 
+• We identified shopping challenges such as overspending, allergy risks, and food waste, then 
+planned features to solve these problems using AI. 
+ 
+ 
+Learner 
+evidence 
+Week 3-5 
+ 
+• Conducted research on AI technologies, software, and tools required for the project. 
+• Developed the project proposal, including the project description, problem statement, 
+scope, and expected outcomes. 
+• Designed the application prototype and user interface using Figma. 
+• Identified and finalized the main features of Shop Wise AI Cart, such as image 
+recognition, budget tracking, allergy alerts, store navigation, and personalized 
+recommendations. 
+• Discussed feedback with the supervisor and made improvements to the project design 
+and proposal. 
+• Prepared and submitted the project documentation. 
+Learner 
+evidence 
+Week 8-
+End of 
+Term 
+ 
+Developed the system design, wireframes, and application structure. 
+• Completed the Figma prototype and continued improving the user interface design. 
+• Added and planned features such as budget tracking, allergy alerts, diet preferences, 
+store selection, store navigation, and expiry reminders. 
+• Set up the development environment and started developing the application in Visual 
+Studio Code using React and TypeScript. 
+• Currently working on coding, testing, and improving the application features. 
+• Documenting project progress, designs, and development decisions. 
+• Preparing the project for the next stage of development and testing. 
+ 
+  
+
+===== PAGE 9 =====
+CAI Capstone Project 
+ 
+ 
+ 
+ 
+                   Section2- Grade 12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+===== PAGE 10 =====
+CAI Capstone Project 
+ 
+G12 Term 1 overview   
+ 
+Welcome to Term 1 of your CAI Capstone Project! 
+This term focuses on turning your approved plan into a fully working computing or AI solution. You will 
+develop, test, improve, and finalize your project while applying your programming, problem-solving, and AI 
+skills. 
+With support from your supervisor, you will manage your time, document your progress, solve technical 
+challenges, and work effectively as a team. 
+At the end of the term, you will present your project at the Capstone Showcase, demonstrating your solution and 
+reflecting on what you learned. This is your opportunity to showcase your skills, creativity, and innovation. 
+ 
+G12 Term 1- Project Implementation Phase 
+ 
+Term 1 Weekly Plan: Project Production, Testing and Presentation 
+ Week 1–2: Project Development Begins  
+• Start developing your approved project under the guidance of your supervisor. 
+• Set up your development environment and project structure. 
+• Begin coding, building AI models, or integrating system components based on your plan. 
+• Create system diagrams, flowcharts, UI designs, or architecture diagrams to guide 
+development. 
+• Conduct initial testing and debug early issues. 
+Remember: 
+Take screenshots, screen recordings, or photos of your progress and keep clear notes in your 
+project log. These will serve as evidence of your work. 
+Week 3–4: Project Development and Testing 
+• Continue development, coding, and system integration under supervisor guidance. 
+•  Test individual features and AI components to ensure functionality, accuracy, and 
+efficiency. 
+• Debug issues and refine your solution based on testing results. 
+
+===== PAGE 11 =====
+CAI Capstone Project 
+• Begin drafting your project report, including methodology, system design, tools used, and 
+problem-solving steps. 
+• Update your Gantt chart to track tasks, milestones, and progress. 
+Remember: 
+Continue documenting your work with screenshots, recordings, and notes at every stage to show 
+your development process. 
+Week 5 – Capstone Project Showcase: Finalization and Presentation 
+• Complete the final development of your project and ensure all features work as planned. 
+• Finalize your project report, including objectives, methodology, system design, results, 
+challenges, solutions, and lessons learned. 
+• Prepare your presentation materials: slides, live demo setup, visuals, and key talking 
+points. 
+• Practice presenting and demonstrating your solution under supervisor guidance. 
+• Present your project at the Capstone Showcase, highlighting: 
+▪ The problem your project solves and its purpose. 
+▪ How your system works and any AI or technical innovations. 
+▪  Testing results and evaluation outcomes. 
+▪ What you learned and possible future improvements. 
+Remember: 
+Ensure all screenshots, recordings, photos, and documentation are organized and ready, as they 
+form part of your project evidence. 
+ 
+
+===== PAGE 12 =====
+CAI Capstone Project 
+ 
+ 
+ 
+G12 Learner evidence 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+
+===== PAGE 13 =====
+CAI Capstone Project 
+Appendix 
+ 
+ 
+Appendix A- Recommended Technology Resources 
+The following tools, platforms, and resources are recommended for use in CAI Capstone Projects.  
+Students should select technologies that match their project goals, technical skills, and supervisor guidance.  
+The use of modern AI tools is encouraged, as they are used ethically and responsibly. 
+ 
+1- Core Programming & Development Tools 
+Recommended for all CAI projects. 
+Category Recommended Tools 
+Coding IDEs Visual Studio Code, PyCharm, Jupyter Notebook, Google Colab, Replit 
+Programming Languages Python, JavaScript, SQL 
+Version Control GitHub 
+ 
+ 
+2- AI & Machine Learning Tools 
+Used for AI-based solutions and intelligent systems. 
+Category Recommended Tools 
+AI Frameworks TensorFlow, PyTorch, Scikit-learn, Keras 
+Computer Vision OpenCV, MediaPipe, YOLO 
+NLP & LLMs OpenAI API, Hugging Face Transformers, IBM Watson 
+GenAI Tools ChatGPT, Microsoft Copilot, Google Gemini 
+ 
+ 
+3-  Web, App & Interface Development 
+For projects requiring user interaction. 
+Category Recommended Tools 
+UI/UX Design Figma, Adobe XD, Canva 
+Web Frameworks Streamlit, Gradio, Flask, FastAPI, React 
+
+===== PAGE 14 =====
+CAI Capstone Project 
+Backend & Database Firebase, SQL Databases 
+ 
+4- Data Science & Analytics 
+For data-driven and AI training projects. 
+Category Recommended Tools 
+Data Processing Pandas, NumPy 
+Visualization Matplotlib, Plotly, Power BI, Tableau Public 
+Data Sources Kaggle, UCI Repository, Hugging Face Datasets 
+ 
+ 
+5- Automation & Agentic AI (Advanced Projects) 
+Recommended for advanced teams. 
+Category Recommended Tools 
+Automation n8n, Zapier 
+AI Agents LangChain, CrewAI, AutoGen 
+ 
+ 
+6- Cloud & Deployment Platforms 
+For hosting and demonstrating final projects. 
+Category Recommended Tools 
+Cloud Platforms AWS Educate, Google Cloud, Microsoft Azure 
+Deployment Render, Railway, GitHub Pages 
+ 
+ 
+  
+
+===== PAGE 15 =====
+CAI Capstone Project 
+Appendix B- Suggested Hardware Component  
+This matrix helps students select suitable hardware components for building AI, IoT, automation, robotics, or 
+smart system prototypes. Hardware selection should always be discussed with the supervisor before 
+implementation. 
+ 
+1-  Core Computing & Development Boards 
+ 
+Hardware 
+Component 
+Primary Use Project Examples Skill Level Notes 
+Arduino Uno / 
+Nano 
+Sensor control & 
+embedded systems 
+Smart sensors, 
+automation 
+prototypes 
+Beginner Best for hardware 
+control (not heavy AI 
+processing) 
+Raspberry Pi Edge computing, AI 
+processing, IoT systems 
+Smart home, AI 
+vision, automation 
+systems 
+Intermediate Supports Python, AI 
+libraries, camera 
+modules 
+ESP32 / 
+ESP8266 
+IoT & wireless 
+communication 
+IoT monitoring 
+systems, smart 
+devices 
+Intermediate Built-in WiFi & 
+Bluetooth 
+Jetson Nano 
+(NVIDIA) 
+AI edge computing Computer vision, 
+real-time AI projects 
+Advanced Suitable for deep 
+learning applications 
+ 
+ 
+2-  AI Vision & Camera Modules 
+ 
+Hardware 
+Component 
+Primary Use Project Examples Skill Level Notes 
+USB Webcam Basic computer 
+vision 
+AI detection 
+prototypes 
+Beginner Easy integration with 
+Python/OpenCV 
+Raspberry Pi Camera 
+Module 
+Computer vision & 
+image capture 
+Object detection, 
+smart surveillance 
+Intermediate Works directly with 
+Raspberry Pi 
+AI Camera / Smart 
+Vision Camera 
+AI-based visual 
+recognition 
+Smart monitoring, AI 
+inspection 
+Advanced Supports edge AI 
+processing 
+ 
+ 
+3-  Sensors (IoT & Smart Systems) 
+ 
+Hardware Component Primary Use Project Examples Notes 
+Temperature & Humidity 
+Sensor 
+Environmental 
+monitoring 
+Smart agriculture, smart 
+rooms 
+Simple data collection 
+Ultrasonic Sensor Distance detection Robotics, smart parking Common for automation 
+projects 
+Motion (PIR) Sensor Movement detection Smart security systems Easy integration 
+Light Sensor (LDR) Light level detection Smart lighting systems Low-cost and simple 
+
+===== PAGE 16 =====
+CAI Capstone Project 
+Gas / Air Quality Sensor Environmental AI 
+projects 
+Smart safety systems Useful for real-world impact 
+projects 
+ 
+4- Robotics & Automation Components 
+ 
+Hardware 
+Component 
+Primary Use Project Examples Skill Level Notes 
+Servo Motors Controlled 
+movement 
+Robotic arms, smart 
+mechanisms 
+Beginner Easy with Arduino 
+DC Motors + Motor 
+Driver 
+Movement 
+systems 
+Smart vehicles, 
+automation 
+Intermediate Requires motor 
+control logic 
+Robotic Kit  Robotics 
+prototyping 
+Autonomous robot 
+projects 
+Intermediate Combine with 
+sensors + AI 
+Humanoid Robot Kits AI interaction 
+projects 
+Educational robotics Advanced Optional for 
+advanced teams 
+ 
+ 
+5-  Drone & Autonomous Systems 
+ 
+Hardware 
+Component 
+Primary Use Project Examples Skill 
+Level 
+Notes 
+Programmable 
+Drone 
+Autonomous 
+systems 
+AI navigation, smart 
+inspection 
+Advanced Requires safety 
+supervision 
+Drone Camera 
+Module 
+Aerial data 
+collection 
+Vision-based AI projects Advanced Combine with AI 
+models 
+ 
+ 
+ 
+Appendix C- Suggested AI tools & Technology Stack 
+ 
+1- AI Tools Matrix (based on the project type) 
+ 
+Project Type Suggested Tools 
+AI Chatbot / Assistant Python, OpenAI API, Streamlit, LangChain 
+Data Analysis Project Python, Pandas, Power BI, Jupyter 
+Computer Vision Project Python, OpenCV, YOLO, TensorFlow 
+Web-Based AI App React / Streamlit, Flask, AI APIs 
+Mobile AI App Swift, CoreML, AI APIs 
+Automation / Smart Workflow n8n, AI APIs, Python 
+ 
+ 
+
+===== PAGE 17 =====
+CAI Capstone Project 
+2- Technology Stack (based on the project type) 
+ 
+ 
+Project Category Suggested Stack 
+AI Assistant Python + OpenAI API + Streamlit 
+Smart Data Dashboard Python + Power BI + Pandas 
+AI Vision System OpenCV + TensorFlow + Python 
+Educational AI Tool Python + Gradio + Hugging Face 
+Smart Automation System n8n + AI APIs 
+AI Web Platform React + FastAPI + Cloud Deployment 
+ 
+ 

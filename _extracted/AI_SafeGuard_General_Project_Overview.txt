@@ -1,0 +1,94 @@
+AI SafeGuard
+General Project Description and Plan
+Computing and Artificial Intelligence Capstone Project
+Campus: Baniyas Girls
+Supervisor: Ms. Dina Sarris
+Project description
+AI SafeGuard is a safety-monitoring project that uses a webcam and artificial intelligence to check whether a person is wearing the required safety gear before entering a laboratory, workshop or other work area. It can identify registered people, display the result of a safety check and alert a supervisor when required equipment is missing.
+The system brings camera checks, worker information and incident records together in a simple dashboard. Its purpose is to help supervisors notice missing equipment and follow up on safety concerns. The current prototype works locally on a computer.
+The problem it solves
+People may forget or choose not to wear the safety equipment required for an activity. Teachers and supervisors may find it difficult to notice every case while managing other responsibilities. Recording incidents manually can also take time and make information harder to review later.
+AI SafeGuard addresses this problem by providing an additional check at an entrance and keeping relevant incident records in one place. It supports human supervision rather than replacing the teacher or supervisor responsible for safety.
+Project goal and purpose
+Our goal is to develop a practical AI system that helps people follow safety-gear requirements and gives supervisors clear information for taking action. The project also allows us to apply programming, artificial intelligence, interface design and testing to a real-world problem.
+Target users
+The intended users are teachers, laboratory staff, workshop supervisors and workplace safety personnel. Students and workers are the people whose required safety equipment may be checked before entry. Wider use in industrial environments would require further testing.
+
+Main objectives
+Check whether the required safety gear is visible in a captured camera image.
+Identify registered people when a clear face image is available.
+Provide clear on-screen results and sound feedback.
+Record relevant violations so supervisors can review and follow up on them.
+Offer a simple interface for managing people, entry points and incident information.
+How the system works
+The user selects the laboratory or workshop entry point. Each entry point has its own safety-gear requirements.
+The user captures an image through the webcam.
+The AI checks the image for safety equipment and compares the face with registered worker information.
+The application compares the detected equipment with the requirements of the selected entry point.
+The screen displays the result and identifies any missing required gear. A valid result produces the appropriate sound feedback.
+If a recognized person is missing required equipment, the system records the incident for supervisor review.
+For example, a laboratory may require goggles, gloves and a lab coat. The system checks for those items instead of requiring every type of equipment it can detect.
+Safety equipment covered
+The system is designed to detect helmets, safety goggles, gloves, safety vests, ear protection and lab coats. The required combination depends on the selected location and activity.
+Main features
+Camera scanning: capture an image for a safety check.
+Safety-gear detection: identify visible protective equipment.
+Registered-person identification: match a clear face to a registered person.
+Alerts and feedback: display a compliant or violation result with appropriate sound.
+Incident records: retain relevant details such as the recognized person, entry point, missing gear and scan image.
+Dashboard: review incidents and safety information in one place.
+
+System design
+AI SafeGuard uses a web interface connected to a Python backend. The interface captures the image and displays information. The backend processes the image, runs the AI components and returns the results. The application then checks the equipment against the selected entry-point rules.
+During local development, worker information and images are stored on the development computer. Connecting an external database and deploying the application online are planned next steps.
+Interface design
+We developed and maintained the interface in Visual Studio Code using React, Vite, HTML, CSS and JavaScript. The design uses clear navigation, readable results and a consistent safety-themed appearance.
+The main pages are Live Monitor, Dashboard, Incidents, Workers, Entry Points and Settings. Supervisors can capture scans, review incident information, register workers and manage the safety requirements for different locations.
+How artificial intelligence is used
+A YOLO model detects visible safety equipment in the camera image. Facial-recognition tools locate a face and compare its numerical features with those of registered people. The application decides which required items are missing by comparing the detected gear with the rules for the selected entry point.
+The AI provides information to support a decision. A supervisor should review unclear results and remains responsible for the appropriate response.
+Tools and materials
+Visual Studio Code: writing, organizing and testing the application.
+Python and FastAPI: backend processing and communication with the interface.
+React, Vite, HTML, CSS and JavaScript: the web interface.
+YOLO, PyTorch and OpenCV: safety-gear detection and image processing.
+DeepFace, YuNet and Facenet512: face detection and registered-person matching.
+Roboflow, Kaggle and LabelImg: preparing data, training the detector and reviewing image labels.
+Laptop and external USB webcam: local development, camera capture and demonstrations.
+Data used
+The project uses public safety-equipment datasets together with images extracted from locally recorded videos. These include different equipment combinations and scenes with no safety gear. Image labels are reviewed to improve the training data. Registered face photographs are used separately to support identity matching.
+
+Project scope
+The current project focuses on a local prototype for safety checks at entry points. It includes camera capture, equipment detection, registered-person identification, visual and sound feedback, incident records and a dashboard.
+It does not physically stop someone from entering, predict future behavior or monitor every activity after entry. Reliable handling of multiple people at once is a future improvement. The system is not a replacement for safety training or supervision.
+Background and user research
+Camera-based safety monitoring and compliance software already exist. AI SafeGuard explores how these ideas can be applied to a webcam-based laboratory or workshop prototype. The project brings equipment checks, identity information and incident review into one interface.
+We also collected student opinions through a survey about safety-gear use, the usefulness of automatic checks, preferred features and possible concerns. The responses help us understand users’ needs and identify issues to consider during development.
+Development and testing
+The project involves understanding the problem, planning the features, designing the interface, preparing data, developing the AI components and connecting them to the application. Testing helps identify problems and guides improvements.
+Testing covers camera capture, equipment detection, registered-person matching, unclear or unknown faces, entry-point rules, incident records and error handling. The system should also be checked under different lighting conditions, camera positions and equipment designs.
+Challenges and improvements
+Challenges include inconsistent image labels, missed equipment, slow processing and connecting the interface to the AI backend. We addressed these through data cleaning, local camera recordings, model refinement, faster face detection and step-by-step integration testing.
+Privacy and responsible use
+Facial photographs and incident records contain personal information. Access should be limited to authorized people, and storage protections should be checked before wider deployment. Uncertain results should be reviewed by a supervisor. An AI result should not be the sole basis for disciplinary action.
+Limitations
+Poor lighting, hidden equipment, motion blur and unclear faces may affect the result. A visible item also does not prove that it is suitable for every hazard or being used correctly. The prototype requires further testing before use in different real workplaces.
+
+Current progress
+The project has progressed to a working local prototype. The interface, camera capture, backend, safety-gear detector and facial-recognition components are connected. The application can display results and maintain relevant worker and incident information.
+Further work includes broader testing, checking sound feedback on the demonstration device, replacing unusable worker photographs, connecting persistent storage and deploying the system online.
+Expected outcomes and benefits
+The project is intended to provide a practical demonstration of AI-assisted safety monitoring. It can help supervisors notice missing gear, organize incident information and review repeated concerns more easily.
+The expected benefit is better support for safety supervision and follow-up. The project does not claim that it has already reduced workplace accidents. Its wider effectiveness must be established through further testing and feedback.
+Teamwork and project planning
+The project combines system development, interface design, research, data preparation and quality testing. Team members document their work, discuss problems and review progress with the supervisor.
+Planning should cover research, design, development, testing, improvement and presentation. The team should keep its schedule, screenshots, test records and project files updated as work progresses.
+Future development
+Deploy the application so authorized supervisors can access it from different devices.
+Connect a secure external database and storage service for worker records and incident images.
+Expand testing and training data to cover more people, equipment and environmental conditions.
+Explore support for multiple people in the same camera view.
+Introduce email or mobile alerts for supervisors.
+Conclusion
+AI SafeGuard shows how artificial intelligence can support safety checks in laboratories and workshops. By combining camera-based equipment detection, registered-person identification and incident records, it gives supervisors an additional tool for monitoring required safety gear.
+The project develops our skills in programming, AI, teamwork and problem-solving. Continued testing and responsible handling of personal information will guide its improvement and future use.
